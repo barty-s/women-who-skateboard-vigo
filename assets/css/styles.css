@@ -1,7 +1,12 @@
 body {
-  max-width: 1200px;
-  margin: 0 auto;
-  background-color: whitesmoke;
+  background-color: #373934;
+}
+
+.container {
+  margin: 80px 50px auto;
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
 }
 
 #hero-outer {

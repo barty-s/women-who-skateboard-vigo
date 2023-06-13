@@ -17,42 +17,48 @@
   <body>
     <header>
       <nav>
-        <h1>Women Who Skateboard</h1>
+        <a href="/" name="link to homepage">Women Who Skateboard</a>
         <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="gallery.html">Gallery</a></li>
-          <li><a href="join-us.html">Join Us</a></li>
+          <li><a href="index.html" name="link to homepage">Home</a></li>
+          <li>
+            <a href="gallery.html" name="link to gallery page">Gallery</a>
+          </li>
+          <li>
+            <a href="join-us.html" name="link to join us page">Join Us</a>
+          </li>
         </ul>
       </nav>
     </header>
-    <main>
-      <h2>Sign up for our next meet-up here!</h2>
-      <form>
-        <label>First Name:</label>
-        <input type="text" required />
-        <label>Last Name:</label>
-        <input type="text" required />
-        <label>Email:</label>
-        <input type="email" required />
+    <div class="container">
+      <main>
+        <h2>Sign up for our next meet-up here!</h2>
+        <form>
+          <label>First Name:</label>
+          <input type="text" required />
+          <label>Last Name:</label>
+          <input type="text" required />
+          <label>Email:</label>
+          <input type="email" required />
+          <ul>
+            What do you skate:
+            <li>
+              <input type="radio" required name="board-type" />Cruiser board
+            </li>
+            <li><input type="radio" name="board-type" />Trick board</li>
+            <li><input type="radio" name="board-type" />Both</li>
+          </ul>
+          <input type="submit" value="Sign me up!" />
+        </form>
+      </main>
+      <footer>
         <ul>
-          What do you skate:
-          <li>
-            <input type="radio" required name="board-type" />Cruiser board
-          </li>
-          <li><input type="radio" name="board-type" />Trick board</li>
-          <li><input type="radio" name="board-type" />Both</li>
+          <li>Icon link Instagram</li>
+          <li>Icon link Twitter</li>
+          <li>Icon link Facebook</li>
         </ul>
-        <input type="submit" value="Sign me up!" />
-      </form>
-    </main>
-    <footer>
-      <ul>
-        <li>Icon link Instagram</li>
-        <li>Icon link Twitter</li>
-        <li>Icon link Facebook</li>
-      </ul>
 
-      <div>Open-source coded by Sarah Barter</div>
-    </footer>
+        <div>Open-source coded by Sarah Barter</div>
+      </footer>
+    </div>
   </body>
 </html>
