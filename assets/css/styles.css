@@ -1,26 +1,35 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Source+Sans+Pro:ital,wght@0,300;0,400;1,200;1,300;1,400&display=swap");
 
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
 body {
   background-color: #373934;
-  margin: 0;
   font-family: "Source Sans Pro", sans-serif;
 }
 
 nav {
   background-color: #98999b;
-}
-
-nav a {
-  margin: 0 auto;
+  width: 100%;
+  column-count: 2;
 }
 
 #logo {
   font-size: 150%;
   color: white;
+  margin: 0 20px;
+  padding: 10px;
 }
 
-nav ul {
-  margin: 15px;
+#menu {
+  text-align: right;
+  margin: 0 20px;
+  padding: 15px;
+  font-size: 110%;
+  color: white;
 }
 
 li {
@@ -32,8 +41,12 @@ a {
   text-decoration: none;
 }
 
+nav a:visited {
+  color: white;
+}
+
 .container {
-  margin: 50px 50px auto;
+  margin: 10px 50px auto;
   background-color: white;
   border-radius: 8px;
   padding: 20px;
@@ -52,4 +65,25 @@ a {
   background-position: center;
   background-repeat: no-repeat;
   margin: 0 auto;
+  border-radius: 2px;
+}
+
+.active {
+  color: #69463a !important;
+}
+
+@media screen and (max-width: 950px) {
+  #logo,
+  #menu {
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+    height: 36px;
+  }
+  #logo {
+    font-size: 90%;
+  }
+  #menu {
+    font-size: 90%;
+  }
 }
