@@ -1,9 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Source+Sans+Pro:ital,wght@0,300;0,400;1,200;1,300;1,400&display=swap");
+
 body {
   background-color: #373934;
+  margin: 0;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+nav {
+  background-color: #98999b;
+}
+
+nav a {
+  margin: 0 auto;
+}
+
+#logo {
+  font-size: 150%;
+  color: white;
+}
+
+nav ul {
+  margin: 15px;
+}
+
+li {
+  list-style-type: none;
+  display: inline;
+}
+
+a {
+  text-decoration: none;
 }
 
 .container {
-  margin: 80px 50px auto;
+  margin: 50px 50px auto;
   background-color: white;
   border-radius: 8px;
   padding: 20px;
