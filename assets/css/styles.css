@@ -74,6 +74,20 @@ nav a:visited {
   color: #69463a !important;
 }
 
+.main-flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-item {
+  width: 50%;
+}
+
+.image-main-section {
+  width: 500px;
+}
 @media screen and (max-width: 950px) {
   #logo,
   #menu {
