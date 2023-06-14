@@ -12,29 +12,31 @@ body {
 }
 
 nav {
+  position: fixed;
+  top: 0;
   background-color: #98999b;
   width: 100%;
-  column-count: 2;
-}
-
-#logo {
   font-size: 150%;
   color: white;
-  margin: 0 20px;
-  padding: 10px;
+  padding: 5px;
 }
 
-#menu {
-  text-align: right;
-  margin: 0 20px;
-  padding: 15px;
-  font-size: 110%;
-  color: white;
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  align-items: center;
 }
 
+.flex-item {
+  flex-grow: 4;
+}
+
+.menu {
+  margin: 0 10px;
+}
 li {
   list-style-type: none;
-  display: inline;
 }
 
 a {
@@ -46,7 +48,7 @@ nav a:visited {
 }
 
 .container {
-  margin: 10px 50px auto;
+  margin: 50px 10px 60px;
   background-color: white;
   border-radius: 8px;
   padding: 20px;
