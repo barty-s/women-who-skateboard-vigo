@@ -107,7 +107,7 @@ footer ul {
 
 .next-meetup {
   font-size: 20px;
-  background-color: rgba(55, 57, 52, 0.4);
+  background-color: rgba(55, 57, 52, 0.3);
   width: 400px;
   margin: 25px;
   padding: 10px 0;
@@ -167,6 +167,18 @@ footer a:hover {
   font-size: 20px;
   text-align: center;
 }
+
+#photos {
+  clear: both;
+  line-height: 0;
+  column-count: 4;
+  gap: 2px;
+}
+
+#photos > img {
+  width: 100%;
+}
+
 @media screen and (max-width: 950px) {
   .flex-container {
     justify-content: center;

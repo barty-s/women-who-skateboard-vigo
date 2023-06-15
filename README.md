@@ -9,5 +9,7 @@ The site will share details on organised meet-ups for skaters in the city.
 
 Images - pexels.com and unsplash.com
 Font - Google Font library
+Map embed - Google Maps
 Icon images - Font Awesome library
-Flex-box code - https://css-tricks.com/ and https://www.w3schools.com/
+Flex-box code explanation - https://css-tricks.com/ and https://www.w3schools.com/
+Code for Gallery display - from CI tutorials
