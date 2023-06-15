@@ -179,6 +179,26 @@ footer a:hover {
   width: 100%;
 }
 
+form {
+  font-size: 20px;
+  background-color: rgba(55, 57, 52, 0.3);
+  max-width: 80%;
+  display: block;
+  margin: 20px auto;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+input {
+  border: 1px solid #373934;
+  border-radius: 4px;
+  line-height: 25px;
+  margin: 10px;
+  text-align: center;
+}
+.form-question {
+  margin: 0 auto;
+}
 @media screen and (max-width: 950px) {
   .flex-container {
     justify-content: center;
@@ -208,5 +228,9 @@ footer a:hover {
 
   iframe {
     width: 230px;
+  }
+
+  #photos {
+    column-count: 2;
   }
 }
