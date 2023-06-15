@@ -13,3 +13,4 @@ Map embed - Google Maps
 Icon images - Font Awesome library
 Flex-box code explanation - https://css-tricks.com/ and https://www.w3schools.com/
 Code for Gallery display - from CI tutorials
+Code to send to confirmation.html page - https://programminghead.com
