@@ -8,6 +8,7 @@ The site will share details on organised meet-ups for skaters in the city.
 ### Bug Fixes
 
 1st run through WC3 HTML validator - update button and <a> code on each page to follow norms.
+2nd run through - bug still not fixed, need new approach to <a> styling. Removed text and spans between <li>s in the Nav bar <ul>
 
 ### Credits
 

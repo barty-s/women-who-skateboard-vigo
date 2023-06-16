@@ -1,3 +1,4 @@
+/*Styling code for main body of each page - sets general styling for color, font, body, links, lists, buttons*/
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Source+Sans+Pro:ital,wght@0,300;0,400;1,200;1,300;1,400&display=swap");
 
 * {
@@ -12,6 +13,32 @@ body {
   color: #373934;
 }
 
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  color: white;
+  background-color: #373934;
+  font-size: 15px;
+  padding: 15px 20px;
+  border-radius: 3px;
+  display: block;
+  margin: 0 auto;
+  border: 1px solid #373934;
+}
+
+button:hover {
+  color: #373934;
+  background-color: white;
+  transition: all 200ms ease-in-out;
+}
+
+/*Nav-Bar styling used across all pages of site*/
 nav {
   position: fixed;
   top: 0;
@@ -31,17 +58,11 @@ nav {
 
 .flex-item {
   flex-grow: 4;
+  margin: 10px;
 }
 
 .menu {
   margin: 0 20px;
-}
-li {
-  list-style-type: none;
-}
-
-a {
-  text-decoration: none;
 }
 
 nav a:visited,
@@ -49,6 +70,11 @@ button a:visited {
   color: inherit;
 }
 
+.active {
+  color: #69463a !important;
+}
+
+/*Styling for main section of home page including hero image and text below image*/
 .container {
   margin: 70px 40px 60px;
   background-color: white;
@@ -72,10 +98,6 @@ button a:visited {
   border-radius: 4px;
 }
 
-.active {
-  color: #69463a !important;
-}
-
 h1,
 h3 {
   text-align: center;
@@ -91,10 +113,6 @@ footer ul {
   justify-content: center;
 }
 
-.flex-item {
-  margin: 10px;
-}
-
 .text-main {
   margin: 50px;
   text-align: center;
@@ -106,6 +124,7 @@ footer ul {
   height: 270px;
 }
 
+/*Styling for next meet-up section on home page*/
 .next-meetup {
   font-size: 20px;
   background-color: rgba(55, 57, 52, 0.3);
@@ -124,23 +143,7 @@ iframe {
   padding: 20px;
 }
 
-button {
-  color: white;
-  background-color: #373934;
-  font-size: 15px;
-  padding: 15px 20px;
-  border-radius: 3px;
-  display: block;
-  margin: 0 auto;
-  border: 1px solid #373934;
-}
-
-button:hover {
-  color: #373934;
-  background-color: white;
-  transition: all 200ms ease-in-out;
-}
-
+/*Styling for footer used across all pages of site*/
 footer ul {
   margin: 50px 50px 0;
   padding: 10px;
@@ -169,6 +172,7 @@ footer a:hover {
   text-align: center;
 }
 
+/*Styling for images on the gallery page*/
 #photos {
   clear: both;
   line-height: 2px;
@@ -181,6 +185,7 @@ footer a:hover {
   border-radius: 4px;
 }
 
+/*Styling for form on Sign-up page*/
 form {
   font-size: 24px;
   background-color: rgba(55, 57, 52, 0.5);
@@ -217,10 +222,12 @@ input {
   height: 720px;
 }
 
+/*Styling for button on confirmation page*/
 .return-button {
   margin-top: 80px;
 }
 
+/*Styling to make site responsive on small devices*/
 @media screen and (max-width: 950px) {
   .flex-container {
     justify-content: center;
