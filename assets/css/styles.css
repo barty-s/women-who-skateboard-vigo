@@ -44,8 +44,9 @@ a {
   text-decoration: none;
 }
 
-nav a:visited {
-  color: white;
+nav a:visited,
+button a:visited {
+  color: inherit;
 }
 
 .container {
