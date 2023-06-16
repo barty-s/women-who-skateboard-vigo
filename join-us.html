@@ -44,32 +44,43 @@
     <div class="container">
       <main>
         <h1>· Sign up for our next meet-up here ·</h1>
-        <form action="confirmation.html">
-          <div class="form-question">
-            <label>First Name:</label>
-            <input type="text" required />
-          </div>
-          <div class="form-question">
-            <label>Last Name:</label>
-            <input type="text" required />
-          </div>
-          <div class="form-question">
-            <label>Email:</label>
-            <input type="email" required />
-          </div>
-          <div class="form-question">
-            <ul>
-              What do you skate:
-              <li>
-                <input type="radio" required name="board-type" />Cruiser board
-              </li>
-              <li><input type="radio" name="board-type" />Trick board</li>
-              <li><input type="radio" name="board-type" />Both</li>
-            </ul>
-          </div>
-          <button>Sign Me Up!</button>
-        </form>
-        <div>image</div>
+        <div class="bottom-image">
+          <form action="confirmation.html">
+            <div>
+              <label for="fname">First Name:</label>
+              <input type="text" id="fname" name="fname" required autofocus />
+            </div>
+            <div>
+              <label for="lname">Last Name:</label>
+              <input type="text" id="lname" name="lname" required />
+            </div>
+            <div>
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+            <div>
+              <ul>
+                <label for="board-type">What do you skate:</label>
+                <li>
+                  <input
+                    type="radio"
+                    id="board-type"
+                    name="board-type"
+                    required
+                  />Cruiser board
+                </li>
+                <li>
+                  <input type="radio" id="board-type" name="board-type" />Trick
+                  board
+                </li>
+                <li>
+                  <input type="radio" id="board-type" name="board-type" />Both
+                </li>
+              </ul>
+            </div>
+            <button class="sign-up-button">Sign Me Up!</button>
+          </form>
+        </div>
       </main>
       <footer>
         <ul>

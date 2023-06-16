@@ -180,25 +180,41 @@ footer a:hover {
 }
 
 form {
-  font-size: 20px;
-  background-color: rgba(55, 57, 52, 0.3);
-  max-width: 80%;
-  display: block;
-  margin: 20px auto;
+  font-size: 24px;
+  background-color: rgba(55, 57, 52, 0.5);
+  width: 50%;
+  margin: 150px auto 10px;
   padding: 10px;
   border-radius: 4px;
+  text-align: center;
+  color: white;
 }
 
 input {
-  border: 1px solid #373934;
+  border: 1px solid white;
   border-radius: 4px;
   line-height: 25px;
-  margin: 10px;
-  text-align: center;
+  margin: 15px;
+  color: white;
+  font-size: 16px;
+  background-color: rgba(55, 57, 52, 0.5);
 }
-.form-question {
-  margin: 0 auto;
+
+.sign-up-button {
+  margin: 30px auto;
 }
+
+.bottom-image {
+  background-image: url("../images/boards-lined-up.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 4px;
+  width: 100%;
+  overflow: hidden;
+  height: 650px;
+}
+
 @media screen and (max-width: 950px) {
   .flex-container {
     justify-content: center;
