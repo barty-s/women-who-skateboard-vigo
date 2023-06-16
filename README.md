@@ -5,6 +5,10 @@ Skateboarding is heavily dominated by male skaters so with this site we hope to 
 
 The site will share details on organised meet-ups for skaters in the city.
 
+### Bug Fixes
+
+1st run through WC3 HTML validator - update button and <a> code on each page to follow norms.
+
 ### Credits
 
 Images - pexels.com and unsplash.com
