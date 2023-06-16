@@ -171,13 +171,14 @@ footer a:hover {
 
 #photos {
   clear: both;
-  line-height: 0;
+  line-height: 2px;
   column-count: 4;
   gap: 2px;
 }
 
 #photos > img {
   width: 100%;
+  border-radius: 4px;
 }
 
 form {
