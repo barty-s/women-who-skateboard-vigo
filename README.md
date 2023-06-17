@@ -53,13 +53,18 @@ The site will share details of organised meet-ups for skaters in the city.
 
 Here are the wire frames designed for the three main pages - Home, Gallery and Join-Us. They show the page layout for large-screen devices and the responsive layout for small screen devices. They were designed using Balsamiq.
 
-These are the wireframes for large-screen devices:
+##### These are the wireframes for large-screen devices:
+
 <img src="assets/images/wireframes-desktop.png">
 
-These are the wireframes for small-screen devices:
+##### These are the wireframes for small-screen devices:
+
 <img src="assets/images/Wireframes-mobile.png">
 
 ### Technology
+
+HTML
+CSS
 
 ### Testing
 
