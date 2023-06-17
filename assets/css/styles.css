@@ -21,7 +21,9 @@ a {
   text-decoration: none;
 }
 
-button {
+.link-button,
+.return-button,
+.sign-up-button {
   color: white;
   background-color: #373934;
   font-size: 15px;
@@ -32,7 +34,18 @@ button {
   border: 1px solid #373934;
 }
 
-button:hover {
+.link-button {
+  width: 55px;
+}
+
+.sign-up-button,
+.return-button {
+  width: 125px;
+}
+
+.link-button:hover,
+.sign-up-button:hover,
+.return-button:hover {
   color: #373934;
   background-color: white;
   transition: all 200ms ease-in-out;
@@ -223,7 +236,7 @@ input {
 }
 
 /*Styling for button on confirmation page*/
-.return-button {
+.return-button-section {
   margin-top: 80px;
 }
 
