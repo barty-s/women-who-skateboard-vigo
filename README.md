@@ -10,15 +10,26 @@ The site will share details of organised meet-ups for skaters in the city.
 ### User Stories
 
 · Home Page - As a visiing user, I want to learn about the group and next scheduled meet-up. I want to be able to sign up for the meet-up easily.
+
 · Gallery Page - As a visiting user, I want to be able to see photos of myself, my friends and fellow skaters from any meet-ups I attend.
+
 · Join Us Page - As a visiting user, I want to be able to submit my personal information quickly and easily to join the next meet-up.
+
 · Confirmation Page - As a visiting user, I want to be sure that my name has been registered for the next meet-up and that the group will be expecting me.
 
 ### Features
 
-· Nav Bar - same design used across all pages of the site. The logo on the left is a link to the home page and on the right there are links to all the pages of the site. The page that is active in high-lighted in a different color.
+· Nav Bar - the same design is used across all pages of the site. The logo on the left is a link to the home page and on the right there are links to all the pages of the site. The page that is active is high-lighted in a different color.
+
+· Hero Image - to grab the user's attention and link the color scheme of the site.
+
+· About section - this part describes the group's intentions and target audience.
+
+· Next Meet-Up section - the user can immediatlely see when the next meetup will be.
 
 · Embedded Map - I chose to include an embedded Google Map of the meeting point to make the site more visual.
+
+· Gallery of images - This allows new users to see what they can expect from the meet-ups and for returning users to see themselves at previous meet-ups.
 
 · Sign-Up Form - This form allows the user to input their full name, email address and preferred board to skate with.
 
@@ -34,7 +45,7 @@ The site will share details of organised meet-ups for skaters in the city.
 
 ### Typography and Color Scheme
 
-· The only type face used was Roboto. It is a geometric font with open, curvy shapes. It was manipulated to be bold or capitalized to differentiate the usages e.g. for a "<h1>" or a "<p>".
+· The only type face used was Roboto. It is a geometric font with open, curvy shapes. It was manipulated to be bold or capitalized to differentiate the usages e.g. for a heading or a paragraph.
 
 · The color scheme was derrived from the hero-image using the color picker tool. I selected a dark gray as the text color, button, color and body background. Light gray and white were used in the header and icon hover features. Rust-brown was used to hightlight the active page. The colors were selected to coordinate with the hero-image and to allow for sufficient contrast between the various text features on the pages with the background colors.
 
@@ -42,7 +53,11 @@ The site will share details of organised meet-ups for skaters in the city.
 
 Here are the wire frames designed for the three main pages - Home, Gallery and Join-Us. They show the page layout for large-screen devices and the responsive layout for small screen devices. They were designed using Balsamiq.
 
-<img >
+These are the wireframes for large-screen devices:
+<img src="assets/images/wireframes-desktop.png">
+
+These are the wireframes for small-screen devices:
+<img src="assets/images/Wireframes-mobile.png">
 
 ### Technology
 
@@ -55,8 +70,8 @@ Here are the wire frames designed for the three main pages - Home, Gallery and J
 
 ### Bug Fixes
 
-1st run through WC3 HTML validator - update button and <a> code on each page to follow norms.
-2nd run through - bug still not fixed, need new approach to <a> styling. Removed text and spans between <li>s in the Nav bar <ul>
+1st run through WC3 HTML validator - update button and a-link code on each page to follow norms.
+2nd run through - bug still not fixed, need new approach to a-link styling. Removed text and spans between list items in the Nav bar unordered list.
 
 ### Deployment
 
