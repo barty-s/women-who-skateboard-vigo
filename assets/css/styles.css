@@ -242,6 +242,10 @@ input {
 
 /*Styling to make site responsive on small devices*/
 @media screen and (max-width: 950px) {
+  nav {
+    padding: 0;
+  }
+
   .flex-container {
     justify-content: center;
   }
@@ -253,7 +257,7 @@ input {
 
   .flex-item {
     text-align: center;
-    margin: 5px;
+    margin: 0;
   }
 
   .main-flex-container {
