@@ -91,15 +91,20 @@ Here are the wire frames designed for the three main pages - Home, Gallery and J
 ### Testing
 
 · Code Validation - W3C HTML, CSS (no errors found on first run through)
+
 · Test Cases
+
 · Fixed bugs
+
 · Supported screens and browsers
 
 ### Bug Fixes
 
 1st run through WC3 HTML validator - update button and a-link code on each page to follow norms.
+
 2nd run through - bug still not fixed, need new approach to a-link styling. Removed text and spans between list items in the Nav bar unordered list.
-3rd run through - changed button to just a link and styled the link element to look like a button, changed color of active link to have more contrast and therefore more easily readable.
+
+3rd run through - changed button to just a link and styled the link element to look like a button. Also, changed color of active link to have more contrast and therefore more easily readable and improve accessibility.
 
 ### Deployment
 
@@ -108,9 +113,15 @@ Explain deploy to Git Pages
 ### Credits
 
 Images - pexels.com and unsplash.com
+
 Font - Google Font library
+
 Map embed - Google Maps
+
 Icon images - Font Awesome library
+
 Flex-box code explanation - https://css-tricks.com/ and https://www.w3schools.com/
+
 Code for Gallery display - from CI tutorials
+
 Code to send to confirmation.html page - https://programminghead.com
