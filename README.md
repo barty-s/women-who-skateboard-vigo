@@ -3,13 +3,16 @@
 ### The Purpose of the project
 
 This project is intended to advertise the group "Women Who Skateboard" and to reach the target audience of women based in Vigo, who want to meet up and skateboard together in a group.
+
 Skateboarding is heavily dominated by male skaters, so with this site, the group "Women Who Skateboard" hope to create a warm and welcoming environment for women skaters in the city.
 
 The site will share details of organised meet-ups for skaters in the city.
 
+<img src="assets/images/responsive-design.png">
+
 ### User Stories
 
-· Home Page - As a visiing user, I want to learn about the group and next scheduled meet-up. I want to be able to sign up for the meet-up easily.
+· Home Page - As a visiting user, I want to learn about the group and next scheduled meet-up. I want to be able to sign up for the meet-up easily.
 
 · Gallery Page - As a visiting user, I want to be able to see photos of myself, my friends and fellow skaters from any meet-ups I attend.
 
@@ -19,21 +22,39 @@ The site will share details of organised meet-ups for skaters in the city.
 
 ### Features
 
-· Nav Bar - the same design is used across all pages of the site. The logo on the left is a link to the home page and on the right there are links to all the pages of the site. The page that is active is high-lighted in a different color.
+· Nav Bar - the same design is used across all pages of the site. The logo on the left is a link to the Home page and on the right there are links to all the pages of the site. The page that is active is high-lighted in a different color.
 
 · Hero Image - to grab the user's attention and link the color scheme of the site.
 
+<img src="assets/images/nav-bar%20%2B%20hero-image.png">
+
 · About section - this part describes the group's intentions and target audience.
+
+<img src="assets/images/about-section.png">
 
 · Next Meet-Up section - the user can immediatlely see when the next meetup will be.
 
 · Embedded Map - I chose to include an embedded Google Map of the meeting point to make the site more visual.
 
+<img src="assets/images/next-meetup.png">
+
+· Footer - This styling is uniform across all pages of the site with links to the group's social media sites and links to the site developers's GitHub and LinkedIn pages.
+
+<img src="assets/images/footer.png">
+
 · Gallery of images - This allows new users to see what they can expect from the meet-ups and for returning users to see themselves at previous meet-ups.
+
+<img src="assets/images/gallery page.png">
 
 · Sign-Up Form - This form allows the user to input their full name, email address and preferred board to skate with.
 
-· Sign-Up Button - Directs user to a confirmation page. This was the easiest solution to acknowledge the data input by the user without using Javascript.
+· Sign-Up Button - Directs the user to a confirmation page. This was the easiest solution to acknowledge the data input by the user without using Javascript.
+
+<img src="assets/images/sign-up form.png">
+
+· Confirmation page - the user is directed to this page to show their request to join the meet-up has been acknowledged.
+
+<img src="assets/images/confirmation page.png">
 
 ### Future Features
 
@@ -47,7 +68,7 @@ The site will share details of organised meet-ups for skaters in the city.
 
 · The only type face used was Roboto. It is a geometric font with open, curvy shapes. It was manipulated to be bold or capitalized to differentiate the usages e.g. for a heading or a paragraph.
 
-· The color scheme was derrived from the hero-image using the color picker tool. I selected a dark gray as the text color, button, color and body background. Light gray and white were used in the header and icon hover features. Rust-brown was used to hightlight the active page. The colors were selected to coordinate with the hero-image and to allow for sufficient contrast between the various text features on the pages with the background colors.
+· The color scheme was derrived from the hero-image using the color picker tool. I selected a dark gray as the text color, button color and body background. Light gray and white were used in the nav-bar and icon hover features. Rust-brown was used to hightlight the active page. The colors were selected to coordinate with the hero-image and to allow for sufficient contrast between the various text features on the pages with the background colors.
 
 ### Wireframes
 
@@ -63,8 +84,9 @@ Here are the wire frames designed for the three main pages - Home, Gallery and J
 
 ### Technology
 
-HTML
-CSS
+· HTML
+
+· CSS
 
 ### Testing
 
@@ -77,12 +99,11 @@ CSS
 
 1st run through WC3 HTML validator - update button and a-link code on each page to follow norms.
 2nd run through - bug still not fixed, need new approach to a-link styling. Removed text and spans between list items in the Nav bar unordered list.
-3rd run through - changed button to just a link and styled the link element to look like a button
+3rd run through - changed button to just a link and styled the link element to look like a button, changed color of active link to have more contrast and therefore more easily readable.
 
 ### Deployment
 
 Explain deploy to Git Pages
-Explain how to fork code from GitHub
 
 ### Credits
 

@@ -21,6 +21,10 @@ a {
   text-decoration: none;
 }
 
+nav a {
+  color: white;
+}
+
 .link-button,
 .return-button,
 .sign-up-button {
@@ -130,6 +134,7 @@ footer ul {
   margin: 50px;
   text-align: center;
   font-size: 18px;
+  padding: 10px 0px;
 }
 
 .image-main-section {
