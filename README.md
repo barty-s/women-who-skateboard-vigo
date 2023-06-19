@@ -26,7 +26,7 @@ The site will share details of organised meet-ups for skaters in the city.
 
 · Hero Image - to grab the user's attention and link the color scheme of the site.
 
-<img src="assets/images/nav-bar%20%2B%20hero-image.png">
+<img src="assets/images/nav-bar-hero-image.png">
 
 · About section - this part describes the group's intentions and target audience.
 
@@ -44,13 +44,13 @@ The site will share details of organised meet-ups for skaters in the city.
 
 · Gallery of images - This allows new users to see what they can expect from the meet-ups and for returning users to see themselves at previous meet-ups.
 
-<img src="assets/images/gallery page.png">
+<img src="assets/images/gallery-page.png">
 
 · Sign-Up Form - This form allows the user to input their full name, email address and preferred board to skate with.
 
 · Sign-Up Button - Directs the user to a confirmation page. This was the easiest solution to acknowledge the data input by the user without using Javascript.
 
-<img src="assets/images/sign-up form.png">
+<img src="assets/images/sign-up-form.png">
 
 · Confirmation page - the user is directed to this page to show their request to join the meet-up has been acknowledged.
 
