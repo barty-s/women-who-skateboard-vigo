@@ -258,7 +258,7 @@ input {
   }
 
   .container {
-    margin: 100px 4px 60px;
+    margin: 100px 4px 10px;
     padding: 5px;
   }
 
@@ -285,5 +285,9 @@ input {
 
   #photos {
     column-count: 2;
+  }
+
+  .sign-up-button {
+    margin: 10px auto;
   }
 }
