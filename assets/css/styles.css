@@ -93,10 +93,10 @@ button a:visited {
 
 /*Styling for main section of home page including hero image and text below image*/
 .container {
-  margin: 70px 40px 60px;
+  margin: 70px 40px 10px;
   background-color: white;
   border-radius: 8px;
-  padding: 20px;
+  padding: 20px 20px 40px;
 }
 
 #hero-outer {
@@ -164,8 +164,7 @@ iframe {
 
 /*Styling for footer used across all pages of site*/
 footer ul {
-  margin: 50px 50px 0;
-  padding: 10px;
+  margin: 20px 50px 0;
 }
 
 footer li {
@@ -178,7 +177,7 @@ footer a {
 }
 
 footer a:visited {
-  color: #373934;
+  color: white;
 }
 
 footer a:hover {
@@ -189,6 +188,8 @@ footer a:hover {
 .author-line {
   font-size: 20px;
   text-align: center;
+  color: white;
+  margin-bottom: 20px;
 }
 
 /*Styling for images on the gallery page*/
@@ -230,7 +231,7 @@ input {
   margin: 30px auto;
 }
 
-.bottom-image {
+.background-image {
   background-image: url("../images/boards-lined-up.jpg");
   background-repeat: no-repeat;
   background-size: cover;
