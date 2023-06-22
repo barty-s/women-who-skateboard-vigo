@@ -54,7 +54,7 @@ The site will share details of organised meet-ups for skaters in the city.
 
 · Confirmation page - the user is directed to this page to show their request to join the meet-up has been acknowledged.
 
-<img src="README-docs/confirmation page.png">
+<img src="README-docs/confirmation-page.png">
 
 ### Future Features
 

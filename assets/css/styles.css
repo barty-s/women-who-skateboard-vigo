@@ -31,7 +31,7 @@ nav a {
   color: white;
   background-color: #373934;
   font-size: 15px;
-  padding: 15px 20px;
+  padding: 15px 2%;
   border-radius: 3px;
   display: block;
   margin: 0 auto;
@@ -63,7 +63,7 @@ nav {
   width: 100%;
   font-size: 150%;
   color: white;
-  padding: 5px;
+  padding: 5px 1%;
 }
 
 .flex-container {
@@ -75,11 +75,11 @@ nav {
 
 .flex-item {
   flex-grow: 4;
-  margin: 10px;
+  margin: 10px 1%;
 }
 
 .menu {
-  margin: 0 20px;
+  margin: 0 2%;
 }
 
 nav a:visited,
@@ -89,10 +89,10 @@ button a:visited {
 
 /*Styling for main section of home page including hero image and text below image*/
 .container {
-  margin: 70px 40px 10px;
+  margin: 70px 3% 10px;
   background-color: white;
   border-radius: 8px;
-  padding: 20px 20px 40px;
+  padding: 20px 2% 40px;
 }
 
 .hero-outer {
@@ -127,7 +127,7 @@ footer ul {
 }
 
 .text-main {
-  margin: 50px;
+  margin: 50px 2%;
   text-align: center;
   font-size: 18px;
   padding: 10px 0px;
@@ -143,7 +143,7 @@ footer ul {
   font-size: 20px;
   background-color: #3739344d;
   width: 400px;
-  margin: 25px;
+  margin: 25px 5%;
   padding: 10px 0;
   border-radius: 4px;
 }
@@ -154,17 +154,17 @@ iframe {
 }
 
 .next-meetup li {
-  margin: 20px;
-  padding: 20px;
+  margin: 20px 2%;
+  padding: 20px 4%;
 }
 
 /*Styling for footer used across all pages of site*/
 footer ul {
-  margin: 20px 50px 0;
+  margin: 10p 4%;
 }
 
 footer li {
-  padding: 40px;
+  padding: 40px 4%;
   font-size: 30px;
 }
 
@@ -199,6 +199,7 @@ footer a:hover {
 .photos > img {
   width: 100%;
   border-radius: 4px;
+  margin-top: 2px;
 }
 
 /*Styling for form on Sign-up page*/
@@ -207,7 +208,7 @@ form {
   background-color: #37393480;
   width: 70%;
   margin: 150px auto 20px;
-  padding: 10px;
+  padding: 10px 4%;
   border-radius: 4px;
   text-align: center;
   color: white;
@@ -217,7 +218,7 @@ input {
   border: 1px solid white;
   border-radius: 4px;
   line-height: 25px;
-  margin: 15px;
+  margin: 15px 2%;
   color: white;
   font-size: 16px;
   background-color: #37393480;
