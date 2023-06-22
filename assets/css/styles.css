@@ -153,7 +153,8 @@ footer ul {
 }
 
 iframe {
-  margin: 40px 0;
+  display: block;
+  margin: 40px auto;
 }
 
 .next-meetup li {
