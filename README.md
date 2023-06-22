@@ -2,7 +2,7 @@
 
 ### The Purpose of the project
 
-This project is intended to advertise the group "Women Who Skateboard" and to reach the target audience of women based in Vigo, who want to meet up and skateboard together in a group.
+This project is intended to promote the group "Women Who Skateboard" and to reach the target audience of women based in Vigo, who want to meet up and skateboard together in a group.
 
 Skateboarding is heavily dominated by male skaters, so with this site, the group "Women Who Skateboard" hope to create a warm and welcoming environment for women skaters in the city.
 
@@ -12,7 +12,7 @@ The site will share details of organised meet-ups for skaters in the city.
 
 ### User Stories
 
-· Home Page - As a visiting user, I want to learn about the group and next scheduled meet-up. I want to be able to sign up for the meet-up easily.
+· Home Page - As a visiting user, I want to learn about the group and the next scheduled meet-up. I want to be able to sign up for the meet-up easily.
 
 · Gallery Page - As a visiting user, I want to be able to see photos of myself, my friends and fellow skaters from any meet-ups I attend.
 
@@ -28,13 +28,13 @@ The site will share details of organised meet-ups for skaters in the city.
 
 <img src="assets/images/nav-bar-hero-image.png">
 
-· About section - this part describes the group's intentions and target audience.
+· About section - this section describes the group's intentions and target audience.
 
 <img src="assets/images/about-section.png">
 
-· Next Meet-Up section - the user can immediatlely see when the next meetup will be.
+· Next Meet-Up section - the user can immediatlely see when and where the next meet-up will be.
 
-· Embedded Map - I chose to include an embedded Google Map of the meeting point to make the site more visual.
+· Embedded Map - An embedded Google Map of the meeting point has been included to make the site more visual for the user.
 
 <img src="assets/images/next-meetup.png">
 
@@ -68,7 +68,7 @@ The site will share details of organised meet-ups for skaters in the city.
 
 · The only type face used was Roboto. It is a geometric font with open, curvy shapes. It was manipulated to be bold or capitalized to differentiate the usages e.g. for a heading or a paragraph.
 
-· The color scheme was derrived from the hero-image using the color picker tool. I selected a dark gray as the text color, button color and body background. Light gray and white were used in the nav-bar and icon hover features. Rust-brown was used to hightlight the active page. The colors were selected to coordinate with the hero-image and to allow for sufficient contrast between the various text features on the pages with the background colors.
+· The color scheme is derrived from the hero-image using the color picker tool. A dark gray is used as the text color, button color and body background. Light gray and white are used in the nav-bar and icon hover features. Rust-brown is used to hightlight the active page. The colors were selected to coordinate with the hero-image and to allow for sufficient contrast between the various text features on the pages with the background colors.
 
 ### Wireframes
 
@@ -104,7 +104,7 @@ Here are the wire frames designed for the three main pages - Home, Gallery and J
 
 2nd run through - bug still not fixed, need new approach to a-link styling. Removed text and spans between list items in the Nav bar unordered list.
 
-3rd run through - changed button to just a link and styled the link element to look like a button. Also, changed color of active link to have more contrast and therefore more easily readable and improve accessibility.
+3rd run through - changed button to just a link and styled the link element to look like a button. Also, changed color of active link to have more contrast and therefore be more easily readable and improve user accessibility.
 
 ### Deployment
 
