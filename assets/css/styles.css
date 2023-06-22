@@ -87,10 +87,6 @@ button a:visited {
   color: inherit;
 }
 
-.active {
-  color: #3c2720 !important;
-}
-
 /*Styling for main section of home page including hero image and text below image*/
 .container {
   margin: 70px 40px 10px;
@@ -99,13 +95,13 @@ button a:visited {
   padding: 20px 20px 40px;
 }
 
-#hero-outer {
+.hero-outer {
   height: 400px;
   width: 100%;
   overflow: hidden;
 }
 
-#hero-img {
+.hero-img {
   height: 400px;
   background: url("../images/hero-img.jpg");
   background-size: cover;
@@ -145,7 +141,7 @@ footer ul {
 /*Styling for next meet-up section on home page*/
 .next-meetup {
   font-size: 20px;
-  background-color: rgba(55, 57, 52, 0.3);
+  background-color: #3739344d;
   width: 400px;
   margin: 25px;
   padding: 10px 0;
@@ -173,7 +169,7 @@ footer li {
 }
 
 footer a {
-  color: #373934;
+  color: white;
 }
 
 footer a:visited {
@@ -193,14 +189,14 @@ footer a:hover {
 }
 
 /*Styling for images on the gallery page*/
-#photos {
+.photos {
   clear: both;
   line-height: 2px;
   column-count: 4;
   gap: 2px;
 }
 
-#photos > img {
+.photos > img {
   width: 100%;
   border-radius: 4px;
 }
@@ -208,7 +204,7 @@ footer a:hover {
 /*Styling for form on Sign-up page*/
 form {
   font-size: 24px;
-  background-color: rgba(55, 57, 52, 0.5);
+  background-color: #37393480;
   width: 70%;
   margin: 150px auto 20px;
   padding: 10px;
@@ -224,7 +220,7 @@ input {
   margin: 15px;
   color: white;
   font-size: 16px;
-  background-color: rgba(55, 57, 52, 0.5);
+  background-color: #37393480;
 }
 
 .sign-up-button {
@@ -283,7 +279,7 @@ input {
     width: 230px;
   }
 
-  #photos {
+  .photos {
     column-count: 2;
   }
 
