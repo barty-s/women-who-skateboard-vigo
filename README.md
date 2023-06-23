@@ -1,6 +1,6 @@
 # Women Who Skateboard - Vigo
 
-### The Purpose of the project
+## The Purpose of the project
 
 This project is intended to promote the group "Women Who Skateboard" and to reach the target audience of women based in Vigo, who want to meet up and skateboard together in a group.
 
@@ -14,7 +14,7 @@ The site will share details of organised meet-ups for skaters in the city.
 
 · Home Page - As a visiting user, I want to learn about the group and the next scheduled meet-up. I want to be able to sign up for the meet-up easily.
 
-· Gallery Page - As a visiting user, I want to be able to see photos of myself, my friends and fellow skaters from any meet-ups I attend.
+· Gallery Page - As a visiting user, I want to be able to see photos of the meet-ups so I know what to expect. And then to see photos of myself, my friends and fellow skaters from any meet-ups I attend.
 
 · Join Us Page - As a visiting user, I want to be able to submit my personal information quickly and easily to join the next meet-up.
 
@@ -58,7 +58,7 @@ The site will share details of organised meet-ups for skaters in the city.
 
 ### Future Features
 
-· Sign-Up Form with Javascript - I'd like to develop the form and send the data to a database. And include if/or functions depending on which type of board the user selects.
+· Sign-Up Form with Javascript - I'd like to develop the form and send the data to a database. And also include if/or functions depending on which type of board the user selects.
 
 · Meet-Up Suggestion Box - I'd like to include this feature so that users can suggest new meet-up locations or other activities and sports so that the group can expand and develop.
 
@@ -90,7 +90,9 @@ Here are the wire frames designed for the three main pages - Home, Gallery and J
 
 ### Testing
 
-- Code Validation - W3C HTML https://validator.w3.org/nu/?doc=https%3A%2F%2Fbarty-s.github.io%2Fwomen-who-skateboard-vigo%2Findex.html
+Code Validation - W3C validator: no errors show on either HTML or CSS validation checks
+
+- HTML https://validator.w3.org/nu/?doc=https%3A%2F%2Fbarty-s.github.io%2Fwomen-who-skateboard-vigo%2Findex.html
 
 - CSS https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fbarty-s.github.io%2Fwomen-who-skateboard-vigo%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en
 
@@ -98,15 +100,15 @@ Here are the wire frames designed for the three main pages - Home, Gallery and J
 
 #### Home page
 
-As the user lands on the website homepage they will see the nav-bar with the logo in the top left, which is a link to the home page, and in the top right, the links to Home, Gallery and Join-Us pages. Scrolling down the user will see the hero image and immediately after this, information about the group is presented. After this section the user finds useful information about the time, date and location of the next meet-up where they can click a button that will navigate them to the Join-Us page.
+As the user lands on the website home page they will see the nav-bar with the logo in the top left, which is a link to the home page, and in the top right, the links to the Home, Gallery and Join-Us pages. Scrolling down the user will see the hero image and immediately after this, information about the group is presented. After this section the user finds useful information about the time, date and location of the next meet-up, where they can click a button that will navigate them to the Join-Us page.
 
 #### Gallery page
 
-The user will see the same nav-bar as on all pages of the site. Scrolling down they can see a gallery of images from previous meet-ups. Immediately after this there is a button linking to the Join-Us page, as on the Home page, so that user can easily navigate to the form where they can sign up for the next meet-up.
+The user will see the same nav-bar as on all pages of the site. Scrolling down they can see a gallery of images from previous meet-ups. Immediately after this there is a button linking to the Join-Us page, as on the Home page, so that the user can easily navigate to the form where they can sign up for the next meet-up.
 
 #### Join-Us page
 
-This is the most interactive page:
+This is the most interactive page, all fields require valid data to be able to submit the form:
 
 - If the user clicks on the 'Sign me up!' button, a warning will appear, informing the user to input a valid first name.
 
@@ -118,34 +120,39 @@ This is the most interactive page:
 
 - After filling in all requried fields the user will be able to navigate to the confirmation page.
 
+<img src="README-docs/tablet-form-test.png"> <img src="README-docs/mobile-form-test.png">
+
 #### Confirmation Page
 
 The user only arrives at the page after filling in the input form correctly. This page essentially confirms the receipt of the user's information. The user then sees a button to navigate back to the home page.
 
-· Supported screens and browsers:
+- Supported screens and browsers:
+
 The site is fully responsive, presenting well on small screen devices with no horizontal overflow, as well as on large screen devices.
+
+It is supported on Google Chrome, Safari, Microsoft Edge, Firefox
 
 ### Bug Fixes
 
-- After running the site through the WC3 HTML validator I had to update the button and a-link code on each page to follow industry standards. I took a few tries to return no errors on the validator as I was trying to include an a-link inside a button element. I finally opted to style the link to look like a button.
+- After running the site through the WC3 HTML validator I had to update the button and a-link code on each page to follow industry standards. It took a few tries to return no errors on the validator as I was trying to include an a-link inside a button element. I finally opted to style the link to look like a button.
 
 - Another bug was the inclusion of a · in the nav-bar ul. I included the · for aesthetic reasons only but it presented as an error in the validator and so I chose to follow best practice of form following function and removed the ·.
 
-- I had to change to original color I wanted for the active link, as the CSS validator indicated it didn't contrast enough to be considered readable. As well as that I had included a !important hack on the active link CSS but I removed it and included in-line styling to give the active link priority.
+- I had to change to original color I wanted for the active link, as the CSS validator indicated it did not contrast sufficiently to be considered readable. As well as that, I had included a '!important' hack on the active link CSS but I removed it and included in-line styling to give the active link styling priority.
 
-- To make the site automatically responsive I changed the horizontal styling from px to %.
+- To make the site automatically responsive I changed the horizontal styling from px to % to avoid overspill on small screen devices and excessive lines of code in the media query section.
 
 ### Deployment
 
-- VS Code - Firstly, I used the CI template on GitHub as I was planning to use CodeAnywhere. But I had issues with the CodeAnywhere site so I chose to use VS Code as the editor for this site as I was already familiar with the programme. I created the file on my desktop then and then opened it in the VS Code programme. There I added the HTML files and assets folder.
+- VS Code - Firstly, I used the CI template on GitHub as I was planning to use CodeAnywhere. But I had issues with the CodeAnywhere site so I chose to use VS Code as the editor for this site as I was already familiar with the programme. I created the file on my desktop and then opened it in the VS Code programme. There I added the HTML files and assets folder.
 
-- GitHub Desktop application - to make and then push commits to the GitHub repo.
+- GitHub Desktop application - I used this application to commit and then push changes to the GitHub repo.
 
-- GitHub pages - I used this feature to deploy the site. Clicking on settings, then pages, and then deploy from branch. Everytime I pushed any changes, GitHub pages wasn't able to automatically update the repo so I had to manually update it by clicking on the 'Last deployed' link on the Pages page. And then clicking on 'Re-run all jobs' on the Actions page.
+- GitHub pages - I used this feature to deploy the site. The page was delpoyed by clicking on settings, then pages, and then deploy from branch. Everytime I pushed any changes, GitHub pages was not able to automatically update the repo so I had to manually update it by clicking on the 'Last deployed' link on the Pages page. And then clicking on 'Re-run all jobs' on the Actions page.
 
 The live link can be found here: https://barty-s.github.io/women-who-skateboard-vigo/
 
-- How to clone site: On GitHub click on the green <> Code button, in the dropdown menu select Local and copy the url for the repository. Create a file on your desktop and right click to open with code, ie VS Code, your local environment. On the welcome page select the option Clone Git Repo and paste the URL. Then save it to the folder you created on your desktop.
+- To clone the repo: On GitHub click on the green <> Code button, then in the dropdown menu select Local and copy the url for the repository. Create a file on your desktop and right click to open with code, ie VS Code, your local environment. On the welcome page select the option Clone Git Repo and paste the URL. Then save it to the folder you created on your desktop.
 
 ### Credits
 
