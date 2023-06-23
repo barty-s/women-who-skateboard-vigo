@@ -90,11 +90,11 @@ Here are the wire frames designed for the three main pages - Home, Gallery and J
 
 ### Testing
 
-· Code Validation - W3C HTML https://validator.w3.org/nu/?doc=https%3A%2F%2Fbarty-s.github.io%2Fwomen-who-skateboard-vigo%2Findex.html
+- Code Validation - W3C HTML https://validator.w3.org/nu/?doc=https%3A%2F%2Fbarty-s.github.io%2Fwomen-who-skateboard-vigo%2Findex.html
 
-· CSS
+- CSS https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fbarty-s.github.io%2Fwomen-who-skateboard-vigo%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en
 
-· Test Cases:
+- Test Cases:
 
 #### Home page
 
@@ -137,25 +137,25 @@ The site is fully responsive, presenting well on small screen devices with no ho
 
 ### Deployment
 
-· VS Code - Firstly, I used the CI template on GitHub as I was planning to use CodeAnywhere. But I had issues with the CodeAnywhere site so I chose to use VS Code as the editor for this site as I was already familiar with the programme. I created the file on my desktop then and then opened it in the VS Code programme. There I added the HTML files and assets folder.
+- VS Code - Firstly, I used the CI template on GitHub as I was planning to use CodeAnywhere. But I had issues with the CodeAnywhere site so I chose to use VS Code as the editor for this site as I was already familiar with the programme. I created the file on my desktop then and then opened it in the VS Code programme. There I added the HTML files and assets folder.
 
-· GitHub Desktop application - to make and then push commits to the GitHub repo.
+- GitHub Desktop application - to make and then push commits to the GitHub repo.
 
-· GitHub pages - I used this feature to deploy the site. Clicking on settings, then pages, and then deploy from branch. Everytime I pushed any changes, GitHub pages wasn't able to automatically update the repo so I had to manually update it by clicking on the 'Last deployed' link on the Pages page. And then clicking on 'Re-run all jobs' on the Actions page.
+- GitHub pages - I used this feature to deploy the site. Clicking on settings, then pages, and then deploy from branch. Everytime I pushed any changes, GitHub pages wasn't able to automatically update the repo so I had to manually update it by clicking on the 'Last deployed' link on the Pages page. And then clicking on 'Re-run all jobs' on the Actions page.
 
-The live link can be found here -
+The live link can be found here: https://barty-s.github.io/women-who-skateboard-vigo/
 
-· How to clone site: On GitHub click on the green <> Code button, in the dropdown menu select Local and copy the url for the repository. Create a file on your desktop and right click to open with code, ie VS Code, your local environment. On the welcome page select the option Clone Git Repo and paste the URL. Then save it to the folder you created on your desktop.
+- How to clone site: On GitHub click on the green <> Code button, in the dropdown menu select Local and copy the url for the repository. Create a file on your desktop and right click to open with code, ie VS Code, your local environment. On the welcome page select the option Clone Git Repo and paste the URL. Then save it to the folder you created on your desktop.
 
 ### Credits
 
-· Media:
+- Media:
 
 Images - https://pexels.com and https://unsplash.com
 
 Icon images - Font Awesome library https://fontawesome.com/
 
-· Content:
+- Content:
 
 Font - Google Font library https://fonts.google.com/
 
