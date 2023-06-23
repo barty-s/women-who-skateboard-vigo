@@ -90,38 +90,79 @@ Here are the wire frames designed for the three main pages - Home, Gallery and J
 
 ### Testing
 
-· Code Validation - W3C HTML, CSS (no errors found on first run through)
+· Code Validation - W3C HTML https://validator.w3.org/nu/?doc=https%3A%2F%2Fbarty-s.github.io%2Fwomen-who-skateboard-vigo%2Findex.html
 
-· Test Cases
+· CSS
 
-· Fixed bugs
+· Test Cases:
 
-· Supported screens and browsers
+#### Home page
+
+As the user lands on the website homepage they will see the nav-bar with the logo in the top left, which is a link to the home page, and in the top right, the links to Home, Gallery and Join-Us pages. Scrolling down the user will see the hero image and immediately after this, information about the group is presented. After this section the user finds useful information about the time, date and location of the next meet-up where they can click a button that will navigate them to the Join-Us page.
+
+#### Gallery page
+
+The user will see the same nav-bar as on all pages of the site. Scrolling down they can see a gallery of images from previous meet-ups. Immediately after this there is a button linking to the Join-Us page, as on the Home page, so that user can easily navigate to the form where they can sign up for the next meet-up.
+
+#### Join-Us page
+
+This is the most interactive page:
+
+- If the user clicks on the 'Sign me up!' button, a warning will appear, informing the user to input a valid first name.
+
+- After inputting a valid first name, if the user clicks on the 'Sign me up!' button, a warning will appear, informing the user to input a valid last name.
+
+- After inputting a valid last name, if the user clicks on the 'Sign me up!' button, a warning will appear, informing the user to input a valid email address.
+
+- After inputting a valid email address, if the user clicks on the 'Sign me up!' button, a warning will appear, informing the user to choose one of the board type options from the radio list.
+
+- After filling in all requried fields the user will be able to navigate to the confirmation page.
+
+#### Confirmation Page
+
+The user only arrives at the page after filling in the input form correctly. This page essentially confirms the receipt of the user's information. The user then sees a button to navigate back to the home page.
+
+· Supported screens and browsers:
+The site is fully responsive, presenting well on small screen devices with no horizontal overflow, as well as on large screen devices.
 
 ### Bug Fixes
 
-1st run through WC3 HTML validator - update button and a-link code on each page to follow norms.
+- After running the site through the WC3 HTML validator I had to update the button and a-link code on each page to follow industry standards. I took a few tries to return no errors on the validator as I was trying to include an a-link inside a button element. I finally opted to style the link to look like a button.
 
-2nd run through - bug still not fixed, need new approach to a-link styling. Removed text and spans between list items in the Nav bar unordered list.
+- Another bug was the inclusion of a · in the nav-bar ul. I included the · for aesthetic reasons only but it presented as an error in the validator and so I chose to follow best practice of form following function and removed the ·.
 
-3rd run through - changed button to just a link and styled the link element to look like a button. Also, changed color of active link to have more contrast and therefore be more easily readable and improve user accessibility.
+- I had to change to original color I wanted for the active link, as the CSS validator indicated it didn't contrast enough to be considered readable. As well as that I had included a !important hack on the active link CSS but I removed it and included in-line styling to give the active link priority.
+
+- To make the site automatically responsive I changed the horizontal styling from px to %.
 
 ### Deployment
 
-Explain deploy to Git Pages
+· VS Code - Firstly, I used the CI template on GitHub as I was planning to use CodeAnywhere. But I had issues with the CodeAnywhere site so I chose to use VS Code as the editor for this site as I was already familiar with the programme. I created the file on my desktop then and then opened it in the VS Code programme. There I added the HTML files and assets folder.
+
+· GitHub Desktop application - to make and then push commits to the GitHub repo.
+
+· GitHub pages - I used this feature to deploy the site. Clicking on settings, then pages, and then deploy from branch. Everytime I pushed any changes, GitHub pages wasn't able to automatically update the repo so I had to manually update it by clicking on the 'Last deployed' link on the Pages page. And then clicking on 'Re-run all jobs' on the Actions page.
+
+The live link can be found here -
+
+· How to clone site: On GitHub click on the green <> Code button, in the dropdown menu select Local and copy the url for the repository. Create a file on your desktop and right click to open with code, ie VS Code, your local environment. On the welcome page select the option Clone Git Repo and paste the URL. Then save it to the folder you created on your desktop.
 
 ### Credits
 
-Images - pexels.com and unsplash.com
+· Media:
 
-Font - Google Font library
+Images - https://pexels.com and https://unsplash.com
 
-Map embed - Google Maps
+Icon images - Font Awesome library https://fontawesome.com/
 
-Icon images - Font Awesome library
+· Content:
+
+Font - Google Font library https://fonts.google.com/
+
+Map embed - Google Maps https://www.google.com/maps
 
 Flex-box code explanation - https://css-tricks.com/ and https://www.w3schools.com/
 
 Code for Gallery display - from CI tutorials
 
-Code to send to confirmation.html page - https://programminghead.com
+Code to send user to Confirmation page - https://programminghead.com
