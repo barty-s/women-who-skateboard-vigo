@@ -88,6 +88,20 @@ Here are the wire frames designed for the three main pages - Home, Gallery and J
 
 · CSS
 
+· GitHub for deployments
+
+· GitHub Desktop application to push and commit changes
+
+· GitPages for website hosting
+
+· VS Code for code editing
+
+· Font Awesome for icons
+
+· Google Fonts
+
+· Google Maps
+
 ### Testing
 
 Code Validation - W3C validator: no errors show on either HTML or CSS validation checks
@@ -96,7 +110,7 @@ Code Validation - W3C validator: no errors show on either HTML or CSS validation
 
 - CSS https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fbarty-s.github.io%2Fwomen-who-skateboard-vigo%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en
 
-- Test Cases:
+### Test Cases:
 
 #### Home page
 
@@ -110,15 +124,15 @@ The user will see the same nav-bar as on all pages of the site. Scrolling down t
 
 This is the most interactive page, all fields require valid data to be able to submit the form:
 
-- If the user clicks on the 'Sign me up!' button, a warning will appear, informing the user to input a valid first name.
+1. If the user clicks on the 'Sign me up!' button, a warning will appear, informing the user to input a valid first name.
 
-- After inputting a valid first name, if the user clicks on the 'Sign me up!' button, a warning will appear, informing the user to input a valid last name.
+2. After inputting a valid first name, if the user clicks on the 'Sign me up!' button, a warning will appear, informing the user to input a valid last name.
 
-- After inputting a valid last name, if the user clicks on the 'Sign me up!' button, a warning will appear, informing the user to input a valid email address.
+3. After inputting a valid last name, if the user clicks on the 'Sign me up!' button, a warning will appear, informing the user to input a valid email address.
 
-- After inputting a valid email address, if the user clicks on the 'Sign me up!' button, a warning will appear, informing the user to choose one of the board type options from the radio list.
+4. After inputting a valid email address, if the user clicks on the 'Sign me up!' button, a warning will appear, informing the user to choose one of the board type options from the radio list.
 
-- After filling in all requried fields the user will be able to navigate to the confirmation page.
+5. After filling in all requried fields the user will be able to navigate to the confirmation page.
 
 <img src="README-docs/tablet-form-test.png"> <img src="README-docs/mobile-form-test.png">
 
@@ -144,15 +158,31 @@ It is supported on Google Chrome, Safari, Microsoft Edge, Firefox
 
 ### Deployment
 
-- VS Code - Firstly, I used the CI template on GitHub as I was planning to use CodeAnywhere. But I had issues with the CodeAnywhere site so I chose to use VS Code as the editor for this site as I was already familiar with the programme. I created the file on my desktop and then opened it in the VS Code programme. There I added the HTML files and assets folder.
+- VS Code: Firstly, I used the CI template on GitHub as I was planning to use CodeAnywhere. But I had issues with the CodeAnywhere site so I chose to use VS Code as the editor for this site as I was already familiar with the programme.
+
+1. I created the file on my desktop and
+2. I then opened it in the VS Code desktop programme.
+3. Then I added the HTML files and assets folder.
 
 - GitHub Desktop application - I used this application to commit and then push changes to the GitHub repo.
 
-- GitHub pages - I used this feature to deploy the site. The page was delpoyed by clicking on settings, then pages, and then deploy from branch. Everytime I pushed any changes, GitHub pages was not able to automatically update the repo so I had to manually update it by clicking on the 'Last deployed' link on the Pages page. And then clicking on 'Re-run all jobs' on the Actions page.
+- GitHub pages for deployment
+
+1. click on Settings
+2. click on Pages
+3. click deploy from branch.
+
+Everytime I pushed any changes, GitHub pages was not able to automatically update the repo so I had to manually update it by clicking on the 'Last deployed' link on the Pages page. And then clicking on 'Re-run all jobs' on the Actions page.
 
 The live link can be found here: https://barty-s.github.io/women-who-skateboard-vigo/
 
-- To clone the repo: On GitHub click on the green <> Code button, then in the dropdown menu select Local and copy the url for the repository. Create a file on your desktop and right click to open with code, ie VS Code, your local environment. On the welcome page select the option Clone Git Repo and paste the URL. Then save it to the folder you created on your desktop.
+- To clone the repo:
+
+1. On GitHub click on the green <> Code button,
+2. In the dropdown menu select Local and copy the url for the repository.
+3. Create a file on your desktop and right click to open with code, ie VS Code, your local environment.
+4. On the welcome page select the option Clone Git Repo and paste the URL.
+5. Save it to the folder you created on your desktop.
 
 ### Credits
 

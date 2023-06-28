@@ -22,13 +22,13 @@ a {
 }
 
 nav a {
-  color: white;
+  color: #ffff;
 }
 
 .link-button,
 .return-button,
 .sign-up-button {
-  color: white;
+  color: #ffff;
   background-color: #373934;
   font-size: 15px;
   padding: 15px 2%;
@@ -51,7 +51,7 @@ nav a {
 .sign-up-button:hover,
 .return-button:hover {
   color: #373934;
-  background-color: white;
+  background-color: #ffff;
   transition: all 200ms ease-in-out;
 }
 
@@ -62,7 +62,7 @@ nav {
   background-color: #98999b;
   width: 100%;
   font-size: 150%;
-  color: white;
+  color: #ffff;
   padding: 5px 1%;
 }
 
@@ -90,7 +90,7 @@ button a:visited {
 /*Styling for main section of home page including hero image and text below image*/
 .container {
   margin: 70px 3% 10px;
-  background-color: white;
+  background-color: #ffff;
   border-radius: 8px;
   padding: 20px 2% 40px;
 }
@@ -151,6 +151,7 @@ footer ul {
 iframe {
   display: block;
   margin: 40px auto;
+  border-radius: 4px;
 }
 
 .next-meetup li {
@@ -169,11 +170,11 @@ footer li {
 }
 
 footer a {
-  color: white;
+  color: #ffff;
 }
 
 footer a:visited {
-  color: white;
+  color: #ffff;
 }
 
 footer a:hover {
@@ -184,7 +185,7 @@ footer a:hover {
 .author-line {
   font-size: 20px;
   text-align: center;
-  color: white;
+  color: #ffff;
   margin-bottom: 20px;
 }
 
@@ -211,15 +212,14 @@ form {
   padding: 10px 4%;
   border-radius: 4px;
   text-align: center;
-  color: white;
+  color: #ffff;
 }
-
-input {
-  border: 1px solid white;
+s input {
+  border: 1px solid #ffff;
   border-radius: 4px;
   line-height: 25px;
   margin: 15px 0.5%;
-  color: white;
+  color: #ffff;
   font-size: 16px;
   background-color: #37393480;
 }
@@ -255,13 +255,18 @@ input {
   }
 
   .container {
-    margin: 100px 4px 10px;
+    margin: 70px 2% 10px;
     padding: 5px;
   }
 
   .flex-item {
     text-align: center;
     margin: 0;
+    font-size: smaller;
+  }
+
+  .menu {
+    font-size: smaller;
   }
 
   .main-flex-container {
@@ -273,7 +278,7 @@ input {
   }
 
   .text-main {
-    margin: 3px;
+    margin: 2%;
   }
 
   iframe {
@@ -282,9 +287,5 @@ input {
 
   .photos {
     column-count: 2;
-  }
-
-  .sign-up-button {
-    margin: 10px auto;
   }
 }
