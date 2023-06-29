@@ -75,7 +75,7 @@ nav {
 
 .flex-item {
   flex-grow: 4;
-  margin: 10px 10%;
+  margin: 10px 1%;
 }
 
 .menu {
@@ -261,7 +261,6 @@ input {
 
   .flex-item {
     text-align: center;
-    margin-left: 10%;
     font-size: smaller;
   }
 

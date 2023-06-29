@@ -126,7 +126,7 @@ Code Validation - W3C validator: no errors show on either HTML or CSS validation
 
 6. Under the button section the user will see the footer with three icons linking to social media pages and a two links to the coder's GitHub and LinkedIn page.
 
-<img src="readme-docs/mobile-home-hero.png"> <img src="readme-docs/mobile-home-about1.png"> <img src="readme-docs/mobile-home-about2.png"> <img src="readme-docs/mobile-home-next-meetup.png"> <img src="readme-docs/mobile-home-map-button.png"> <img src="readme-docs/mobile-footer.png">
+<img src="readme-docs/mobile-home1.png"> <img src="readme-docs/mobile-home2.png"> <img src="readme-docs/mobile-home3.png"> <img src="readme-docs/mobile-home-next-meetup.png"> <img src="readme-docs/mobile-home4.png">
 
 #### Gallery page
 
@@ -140,7 +140,7 @@ Code Validation - W3C validator: no errors show on either HTML or CSS validation
 
 5. Under the button section the user will see the footer with three icons linking to social media pages and a two links to the coder's GitHub and LinkedIn page.
 
-<img src="readme-docs/mobile-gallery-top.png"> <img src="readme-docs/mobile-gallery-bottom.png">
+<img src="readme-docs/mobile-gallery1.png"> <img src="readme-docs/mobile-gallery2.png">
 
 #### Join-Us page
 
