@@ -8,7 +8,7 @@ Skateboarding is heavily dominated by male skaters, so with this site, the group
 
 The site will share details of organised meet-ups for skaters in the city.
 
-<img src="readme-docs/responsive-design.png">
+<img src="README-docs/responsive-design.png">
 
 ### User Stories
 
@@ -26,35 +26,35 @@ The site will share details of organised meet-ups for skaters in the city.
 
 · Hero Image - to grab the user's attention and link the color scheme of the site.
 
-<img src="readme-docs/nav-bar-hero-image.png">
+<img src="README-docs/nav-bar-hero-image.png">
 
 · About section - this section describes the group's intentions and target audience.
 
-<img src="readme-docs/about-section.png">
+<img src="README-docs/about-section.png">
 
 · Next Meet-Up section - the user can immediatlely see when and where the next meet-up will be.
 
 · Embedded Map - An embedded Google Map of the meeting point has been included to make the site more visual for the user.
 
-<img src="readme-docs/next-meetup.png">
+<img src="README-docs/next-meetup.png">
 
 · Footer - This styling is uniform across all pages of the site with links to the group's social media sites and links to the site developers's GitHub and LinkedIn pages.
 
-<img src="readme-docs/footer.png">
+<img src="README-docs/footer.png">
 
 · Gallery of images - This allows new users to see what they can expect from the meet-ups and for returning users to see themselves at previous meet-ups.
 
-<img src="readme-docs/gallery-page.png">
+<img src="README-docs/gallery-page.png">
 
 · Sign-Up Form - This form allows the user to input their full name, email address and preferred board to skate with.
 
 · Sign-Up Button - Directs the user to a confirmation page. This was the easiest solution to acknowledge the data input by the user without using Javascript.
 
-<img src="readme-docs/sign-up-form.png">
+<img src="README-docs/sign-up-form.png">
 
 · Confirmation page - the user is directed to this page to show their request to join the meet-up has been acknowledged.
 
-<img src="readme-docs/confirmation-page.png">
+<img src="README-docs/confirmation-page.png">
 
 ### Future Features
 
@@ -76,11 +76,11 @@ Here are the wire frames designed for the three main pages - Home, Gallery and J
 
 ##### These are the wireframes for large-screen devices:
 
-<img src="readme-docs/wireframes-desktop.png">
+<img src="README-docs/wireframes-desktop.png">
 
 ##### These are the wireframes for small-screen devices:
 
-<img src="readme-docs/wireframes-mobile.png">
+<img src="README-docs/wireframes-mobile.png">
 
 ### Technology
 
@@ -162,7 +162,7 @@ This is the most interactive page, all fields require valid data to be able to s
 
 8. Under the button section the user will see the footer with three icons linking to social media pages and a two links to the coder's GitHub and LinkedIn page.
 
-<img src="readme-docs/tablet-form-test.png"> <img src="readme-docs/mobile-form-test.png">
+<img src="README-docs/tablet-form-test.png"> <img src="README-docs/mobile-form-test.png">
 
 #### Confirmation Page
 
