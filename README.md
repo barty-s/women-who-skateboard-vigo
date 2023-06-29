@@ -22,7 +22,7 @@ The site will share details of organised meet-ups for skaters in the city.
 
 ### Features
 
-· Nav Bar - the same design is used across all pages of the site. The logo on the left is a link to the Home page and on the right there are links to all the pages of the site. The page that is active is high-lighted in a different color.
+· Nav Bar - the same design is used across all the pages of the site. The logo on the left is a link to the Home page and on the right there are links to all the pages of the site. The page that is active is high-lighted in a different color.
 
 · Hero Image - to grab the user's attention and link the color scheme of the site.
 
@@ -68,7 +68,7 @@ The site will share details of organised meet-ups for skaters in the city.
 
 · The only type face used was Roboto. It is a geometric font with open, curvy shapes. It was manipulated to be bold or capitalized to differentiate the usages e.g. for a heading or a paragraph.
 
-· The color scheme is derrived from the hero-image using the color picker tool. A dark gray is used as the text color, button color and body background. Light gray and white are used in the nav-bar and icon hover features. Rust-brown is used to hightlight the active page. The colors were selected to coordinate with the hero-image and to allow for sufficient contrast between the various text features on the pages with the background colors.
+· The color scheme is derived from the hero-image using the color picker tool. A dark gray is used as the text color, button color and body background. Light gray and white are used in the nav-bar and icon hover features. Rust-brown is used to hightlight the active page. The colors were selected to coordinate with the hero-image and to allow for sufficient contrast between the various text features on the pages with the background colors.
 
 ### Wireframes
 
@@ -124,7 +124,7 @@ Code Validation - W3C validator: no errors show on either HTML or CSS validation
 
 5. The user can click the 'Join Us' button which will navigate them to the Join-Us page.
 
-6. Under the button section the user will see the footer with three icons linking to social media pages and a two links to the coder's GitHub and LinkedIn page.
+6. Under the button section the user will see the footer with three icons linking to social media pages and two links to the coder's GitHub and LinkedIn page.
 
 <img src="readme-docs/mobile-home1.png"> <img src="readme-docs/mobile-home2.png"> <img src="readme-docs/mobile-home3.png"> <img src="readme-docs/mobile-home4.png">
 
@@ -138,7 +138,7 @@ Code Validation - W3C validator: no errors show on either HTML or CSS validation
 
 4. The user can click the 'Join Us' button to navigate to the form where they can sign up for the next meet-up.
 
-5. Under the button section the user will see the footer with three icons linking to social media pages and a two links to the coder's GitHub and LinkedIn page.
+5. Under the button section the user will see the footer with three icons linking to social media pages and two links to the coder's GitHub and LinkedIn page.
 
 <img src="readme-docs/mobile-gallery1.png"> <img src="readme-docs/mobile-gallery2.png">
 
@@ -160,7 +160,7 @@ This is the most interactive page, all fields require valid data to be able to s
 
 7. After filling in all requried fields the user will be able to navigate to the confirmation page.
 
-8. Under the button section the user will see the footer with three icons linking to social media pages and a two links to the coder's GitHub and LinkedIn page.
+8. Under the button section the user will see the footer with three icons linking to social media pages and two links to the coder's GitHub and LinkedIn page.
 
 <img src="README-docs/tablet-form-test.png"> <img src="README-docs/mobile-form-test.png">
 
@@ -172,7 +172,7 @@ This is the most interactive page, all fields require valid data to be able to s
 
 3. The user then sees a button to navigate back to the home page.
 
-4. Under the button section the user will see the footer with three icons linking to social media pages and a two links to the coder's GitHub and LinkedIn page.
+4. Under the button section the user will see the footer with three icons linking to social media pages and two links to the coder's GitHub and LinkedIn page.
 
 <img src="readme-docs/mobile-confirmation.png">
 
@@ -188,7 +188,7 @@ It is supported on Google Chrome, Safari, Microsoft Edge, Firefox
 
 - Another bug was the inclusion of a · in the nav-bar ul. I included the · for aesthetic reasons only but it presented as an error in the validator and so I chose to follow best practice of form following function and removed the ·.
 
-- I had to change to original color I wanted for the active link, as the CSS validator indicated it did not contrast sufficiently to be considered readable. As well as that, I had included a '!important' hack on the active link CSS but I removed it and included in-line styling to give the active link styling priority.
+- I had to change to original color I wanted for the active link, as the CSS validator indicated it did not contrast sufficiently to be considered readable. As well as that, I had included an '!important' hack on the active link CSS but I removed it and included in-line styling to give the active link styling priority.
 
 - To make the site automatically responsive I changed the horizontal styling from px to % to avoid overspill on small screen devices and excessive lines of code in the media query section.
 
@@ -214,8 +214,8 @@ It is supported on Google Chrome, Safari, Microsoft Edge, Firefox
 
 Everytime I pushed any commits, GitHub pages was not able to automatically update the repo so I had to manually update it each time by:
 
-1. click on the 'Last deployed' link on the Pages page
-2. click on 'Re-run all jobs' on the Actions page
+1. clicking on the 'Last deployed' link on the Pages page
+2. clicking on 'Re-run all jobs' on the Actions page
 
 The live link can be found here: https://barty-s.github.io/women-who-skateboard-vigo/
 
