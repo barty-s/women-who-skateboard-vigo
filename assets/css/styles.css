@@ -214,7 +214,7 @@ form {
   text-align: center;
   color: #ffff;
 }
-s input {
+input {
   border: 1px solid #ffff;
   border-radius: 4px;
   line-height: 25px;
@@ -262,11 +262,11 @@ s input {
   .flex-item {
     text-align: center;
     margin: 0;
-    font-size: smaller;
+    font-size: 24px;
   }
 
   .menu {
-    font-size: smaller;
+    font-size: 24px;
   }
 
   .main-flex-container {

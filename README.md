@@ -8,7 +8,7 @@ Skateboarding is heavily dominated by male skaters, so with this site, the group
 
 The site will share details of organised meet-ups for skaters in the city.
 
-<img src="README-docs/responsive-design.png">
+<img src="readme-docs/responsive-design.png">
 
 ### User Stories
 
@@ -26,35 +26,35 @@ The site will share details of organised meet-ups for skaters in the city.
 
 · Hero Image - to grab the user's attention and link the color scheme of the site.
 
-<img src="README-docs/nav-bar-hero-image.png">
+<img src="readme-docs/nav-bar-hero-image.png">
 
 · About section - this section describes the group's intentions and target audience.
 
-<img src="README-docs/about-section.png">
+<img src="readme-docs/about-section.png">
 
 · Next Meet-Up section - the user can immediatlely see when and where the next meet-up will be.
 
 · Embedded Map - An embedded Google Map of the meeting point has been included to make the site more visual for the user.
 
-<img src="README-docs/next-meetup.png">
+<img src="readme-docs/next-meetup.png">
 
 · Footer - This styling is uniform across all pages of the site with links to the group's social media sites and links to the site developers's GitHub and LinkedIn pages.
 
-<img src="README-docs/footer.png">
+<img src="readme-docs/footer.png">
 
 · Gallery of images - This allows new users to see what they can expect from the meet-ups and for returning users to see themselves at previous meet-ups.
 
-<img src="README-docs/gallery-page.png">
+<img src="readme-docs/gallery-page.png">
 
 · Sign-Up Form - This form allows the user to input their full name, email address and preferred board to skate with.
 
 · Sign-Up Button - Directs the user to a confirmation page. This was the easiest solution to acknowledge the data input by the user without using Javascript.
 
-<img src="README-docs/sign-up-form.png">
+<img src="readme-docs/sign-up-form.png">
 
 · Confirmation page - the user is directed to this page to show their request to join the meet-up has been acknowledged.
 
-<img src="README-docs/confirmation-page.png">
+<img src="readme-docs/confirmation-page.png">
 
 ### Future Features
 
@@ -76,11 +76,11 @@ Here are the wire frames designed for the three main pages - Home, Gallery and J
 
 ##### These are the wireframes for large-screen devices:
 
-<img src="README-docs/wireframes-desktop.png">
+<img src="readme-docs/wireframes-desktop.png">
 
 ##### These are the wireframes for small-screen devices:
 
-<img src="README-docs/wireframes-mobile.png">
+<img src="readme-docs/wireframes-mobile.png">
 
 ### Technology
 
@@ -90,7 +90,7 @@ Here are the wire frames designed for the three main pages - Home, Gallery and J
 
 · GitHub for deployments
 
-· GitHub Desktop application to push and commit changes
+· GitHub Desktop application to commit and push changes
 
 · GitPages for website hosting
 
@@ -110,37 +110,73 @@ Code Validation - W3C validator: no errors show on either HTML or CSS validation
 
 - CSS https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fbarty-s.github.io%2Fwomen-who-skateboard-vigo%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en
 
-### Test Cases:
+### Test Cases
 
 #### Home page
 
-As the user lands on the website home page they will see the nav-bar with the logo in the top left, which is a link to the home page, and in the top right, the links to the Home, Gallery and Join-Us pages. Scrolling down the user will see the hero image and immediately after this, information about the group is presented. After this section the user finds useful information about the time, date and location of the next meet-up, where they can click a button that will navigate them to the Join-Us page.
+1. As the user lands on the website home page they will see the nav-bar with the logo in the top left, which is a link to the home page, and in the top right, the links to the Home, Gallery and Join-Us pages.
+
+2. Scrolling down the user will see the hero image.
+
+3. Immediately after this, information about the group is presented.
+
+4. The user then finds useful information about the time, date and location of the next meet-up.
+
+5. The user can click the 'Join Us' button which will navigate them to the Join-Us page.
+
+6. Under the button section the user will see the footer with three icons linking to social media pages and a two links to the coder's GitHub and LinkedIn page.
+
+<img src="readme-docs/mobile-home-hero.png"> <img src="readme-docs/mobile-home-about1.png"> <img src="readme-docs/mobile-home-about2.png"> <img src="readme-docs/mobile-home-next-meetup.png"> <img src="readme-docs/mobile-home-map-button.png"> <img src="readme-docs/mobile-footer.png">
 
 #### Gallery page
 
-The user will see the same nav-bar as on all pages of the site. Scrolling down they can see a gallery of images from previous meet-ups. Immediately after this there is a button linking to the Join-Us page, as on the Home page, so that the user can easily navigate to the form where they can sign up for the next meet-up.
+1. The user will see the same nav-bar as on all pages of the site.
+
+2. Scrolling down they can see a gallery of images from previous meet-ups.
+
+3. Immediately after the image gallery there is a button linking to the Join-Us page, as on the Home page.
+
+4. The user can click the 'Join Us' button to navigate to the form where they can sign up for the next meet-up.
+
+5. Under the button section the user will see the footer with three icons linking to social media pages and a two links to the coder's GitHub and LinkedIn page.
+
+<img src="readme-docs/mobile-gallery-top.png"> <img src="readme-docs/mobile-gallery-bottom.png">
 
 #### Join-Us page
 
 This is the most interactive page, all fields require valid data to be able to submit the form:
 
-1. If the user clicks on the 'Sign me up!' button, a warning will appear, informing the user to input a valid first name.
+1. The user will see the same nav-bar, as on all pages of the site.
 
-2. After inputting a valid first name, if the user clicks on the 'Sign me up!' button, a warning will appear, informing the user to input a valid last name.
+2. Under the nav-bar the user will notice a sign up form.
 
-3. After inputting a valid last name, if the user clicks on the 'Sign me up!' button, a warning will appear, informing the user to input a valid email address.
+3. If the user clicks on the 'Sign me up!' button, a warning will appear, informing the user to input a valid first name.
 
-4. After inputting a valid email address, if the user clicks on the 'Sign me up!' button, a warning will appear, informing the user to choose one of the board type options from the radio list.
+4. After inputting a valid first name, if the user clicks on the 'Sign me up!' button, a warning will appear, informing the user to input a valid last name.
 
-5. After filling in all requried fields the user will be able to navigate to the confirmation page.
+5. After inputting a valid last name, if the user clicks on the 'Sign me up!' button, a warning will appear, informing the user to input a valid email address.
 
-<img src="README-docs/tablet-form-test.png"> <img src="README-docs/mobile-form-test.png">
+6. After inputting a valid email address, if the user clicks on the 'Sign me up!' button, a warning will appear, informing the user to choose one of the board type options from the radio list.
+
+7. After filling in all requried fields the user will be able to navigate to the confirmation page.
+
+8. Under the button section the user will see the footer with three icons linking to social media pages and a two links to the coder's GitHub and LinkedIn page.
+
+<img src="readme-docs/tablet-form-test.png"> <img src="readme-docs/mobile-form-test.png">
 
 #### Confirmation Page
 
-The user only arrives at the page after filling in the input form correctly. This page essentially confirms the receipt of the user's information. The user then sees a button to navigate back to the home page.
+1. The user only arrives at the page after filling in the input form correctly.
 
-- Supported screens and browsers:
+2. This page essentially confirms the receipt of the user's information.
+
+3. The user then sees a button to navigate back to the home page.
+
+4. Under the button section the user will see the footer with three icons linking to social media pages and a two links to the coder's GitHub and LinkedIn page.
+
+<img src="readme-docs/mobile-confirmation.png">
+
+### Supported screens and browsers:
 
 The site is fully responsive, presenting well on small screen devices with no horizontal overflow, as well as on large screen devices.
 
@@ -158,25 +194,32 @@ It is supported on Google Chrome, Safari, Microsoft Edge, Firefox
 
 ### Deployment
 
-- VS Code: Firstly, I used the CI template on GitHub as I was planning to use CodeAnywhere. But I had issues with the CodeAnywhere site so I chose to use VS Code as the editor for this site as I was already familiar with the programme.
+#### VS Code:
 
-1. I created the file on my desktop and
-2. I then opened it in the VS Code desktop programme.
-3. Then I added the HTML files and assets folder.
+- Firstly, I used the CI template on GitHub as I was planning to use CodeAnywhere. But I had issues with the CodeAnywhere site so I chose to use VS Code as the editor for this site as I was already familiar with the programme.
 
-- GitHub Desktop application - I used this application to commit and then push changes to the GitHub repo.
+1. Create the file on the desktop
+2. Open it in the VS Code desktop programme
+3. Add the HTML files and assets folder
 
-- GitHub pages for deployment
+#### GitHub Desktop application
 
-1. click on Settings
+- I used this application to commit and then push changes to the GitHub repo.
+
+#### GitHub pages for deployment
+
+1. click on Settings on the GitHub repo page
 2. click on Pages
 3. click deploy from branch.
 
-Everytime I pushed any changes, GitHub pages was not able to automatically update the repo so I had to manually update it by clicking on the 'Last deployed' link on the Pages page. And then clicking on 'Re-run all jobs' on the Actions page.
+Everytime I pushed any commits, GitHub pages was not able to automatically update the repo so I had to manually update it each time by:
+
+1. click on the 'Last deployed' link on the Pages page
+2. click on 'Re-run all jobs' on the Actions page
 
 The live link can be found here: https://barty-s.github.io/women-who-skateboard-vigo/
 
-- To clone the repo:
+#### To clone the repo:
 
 1. On GitHub click on the green <> Code button,
 2. In the dropdown menu select Local and copy the url for the repository.
