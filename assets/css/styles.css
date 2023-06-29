@@ -75,7 +75,7 @@ nav {
 
 .flex-item {
   flex-grow: 4;
-  margin: 10px 1%;
+  margin: 10px 10%;
 }
 
 .menu {
@@ -255,18 +255,18 @@ input {
   }
 
   .container {
-    margin: 70px 2% 10px;
+    margin: 80px 2% 10px;
     padding: 5px;
   }
 
   .flex-item {
     text-align: center;
-    margin: 0;
-    font-size: 24px;
+    margin-left: 10%;
+    font-size: smaller;
   }
 
   .menu {
-    font-size: 24px;
+    font-size: smaller;
   }
 
   .main-flex-container {
