@@ -262,6 +262,7 @@ input {
   .flex-item {
     text-align: center;
     font-size: smaller;
+    width: 100%;
   }
 
   .menu {
